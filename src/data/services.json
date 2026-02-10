@@ -1,0 +1,148 @@
+{
+  "services": [
+    {
+      "id": "content-marketing",
+      "slug": "content-marketing",
+      "title": "Content Marketing",
+      "shortDescription": "Strategic content creation and distribution to attract and engage your target audience.",
+      "description": "Our content marketing services help businesses create compelling narratives that resonate with their audience. We develop comprehensive content strategies that drive organic traffic, build brand authority, and convert visitors into loyal customers.",
+      "icon": "📝",
+      "features": [
+        "Content Strategy Development",
+        "Blog Writing & Management",
+        "Social Media Content",
+        "Email Marketing Campaigns",
+        "Video Content Creation",
+        "Infographic Design",
+        "Content Performance Analytics",
+        "SEO-Optimized Content"
+      ],
+      "benefits": [
+        "Increase organic traffic by up to 300%",
+        "Build lasting brand authority",
+        "Generate qualified leads",
+        "Improve customer engagement"
+      ]
+    },
+    {
+      "id": "custom-web-design",
+      "slug": "custom-web-design",
+      "title": "Custom Web Design",
+      "shortDescription": "Stunning, responsive websites tailored to your brand identity and business goals.",
+      "description": "We create visually stunning and highly functional websites that leave lasting impressions. Our custom web design services combine aesthetics with performance to deliver websites that not only look great but also drive conversions and business growth.",
+      "icon": "🎨",
+      "features": [
+        "Responsive Design",
+        "UI/UX Design",
+        "Brand Integration",
+        "Interactive Elements",
+        "Performance Optimization",
+        "Cross-Browser Compatibility",
+        "Accessibility Compliance",
+        "Custom Animations"
+      ],
+      "benefits": [
+        "Unique brand representation",
+        "Mobile-first experience",
+        "Faster page load times",
+        "Higher user engagement"
+      ]
+    },
+    {
+      "id": "seo-services",
+      "slug": "seo-services",
+      "title": "SEO Services",
+      "shortDescription": "Data-driven SEO strategies to boost your search rankings and online visibility.",
+      "description": "Our comprehensive SEO services are designed to improve your website's visibility in search engine results. We use proven techniques and cutting-edge tools to drive organic traffic, increase rankings, and deliver measurable ROI.",
+      "icon": "🔍",
+      "features": [
+        "Technical SEO Audit",
+        "Keyword Research & Strategy",
+        "On-Page Optimization",
+        "Link Building",
+        "Local SEO",
+        "Content Optimization",
+        "Performance Tracking",
+        "Competitor Analysis"
+      ],
+      "benefits": [
+        "Top search engine rankings",
+        "Increased organic traffic",
+        "Better conversion rates",
+        "Long-term sustainable growth"
+      ]
+    },
+    {
+      "id": "custom-app-development",
+      "slug": "custom-app-development",
+      "title": "Custom App Development",
+      "shortDescription": "End-to-end mobile and web application development tailored to your needs.",
+      "description": "We build powerful, scalable applications that transform your business ideas into reality. Our expert developers create custom solutions using the latest technologies, ensuring your app stands out in the competitive digital landscape.",
+      "icon": "📱",
+      "features": [
+        "iOS App Development",
+        "Android App Development",
+        "Cross-Platform Solutions",
+        "Progressive Web Apps",
+        "API Development & Integration",
+        "Cloud-Native Applications",
+        "App Maintenance & Support",
+        "Quality Assurance Testing"
+      ],
+      "benefits": [
+        "Tailored to your business needs",
+        "Scalable architecture",
+        "Seamless user experience",
+        "Ongoing support and updates"
+      ]
+    },
+    {
+      "id": "erp-software-development",
+      "slug": "erp-software-development",
+      "title": "ERP Software Development",
+      "shortDescription": "Comprehensive ERP solutions to streamline your business operations.",
+      "description": "Our custom ERP software development services help organizations integrate and automate their business processes. We build robust, scalable ERP solutions that improve efficiency, reduce costs, and provide real-time insights for better decision-making.",
+      "icon": "⚙️",
+      "features": [
+        "Custom ERP Development",
+        "Module Integration",
+        "Business Process Automation",
+        "Real-Time Analytics",
+        "Multi-Location Support",
+        "Role-Based Access Control",
+        "Third-Party Integrations",
+        "Cloud & On-Premise Options"
+      ],
+      "benefits": [
+        "Streamlined operations",
+        "Reduced operational costs",
+        "Improved data accuracy",
+        "Better business insights"
+      ]
+    },
+    {
+      "id": "inventory-management",
+      "slug": "inventory-management",
+      "title": "Inventory Management",
+      "shortDescription": "Smart inventory solutions to optimize stock levels and reduce costs.",
+      "description": "Our inventory management systems help businesses track, manage, and optimize their inventory in real-time. We develop solutions that reduce carrying costs, prevent stockouts, and improve overall supply chain efficiency.",
+      "icon": "📦",
+      "features": [
+        "Real-Time Stock Tracking",
+        "Automated Reorder Points",
+        "Barcode/QR Code Integration",
+        "Multi-Warehouse Management",
+        "Demand Forecasting",
+        "Supplier Management",
+        "Reporting & Analytics",
+        "E-commerce Integration"
+      ],
+      "benefits": [
+        "Reduced carrying costs",
+        "Prevented stockouts",
+        "Improved order accuracy",
+        "Enhanced supply chain visibility"
+      ]
+    }
+  ]
+}
