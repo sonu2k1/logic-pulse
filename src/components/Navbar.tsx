@@ -32,22 +32,23 @@ export default function Navbar() {
 
     return (
         <nav className="fixed top-6 left-0 right-0 z-50 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-7xl mx-auto">
-                <div className="bg-white/95 backdrop-blur-lg border border-gray-200 rounded-full shadow-2xl px-6 lg:px-8">
-                    <div className="flex items-center justify-between h-16">
-                        {/* Logo */}
-                        <Link href="/" className="flex items-center flex-shrink-0">
-                            <Image
-                                src="/logo.png"
-                                alt="Logicpulse Innovation Logo"
-                                width={180}
-                                height={50}
-                                className="h-12 w-auto object-contain"
-                                priority
-                                unoptimized
-                            />
-                        </Link>
+            <div className="max-w-7xl mx-auto flex items-center gap-4">
+                {/* Part 1: Logo */}
+                <Link href="/" className="flex-shrink-0 bg-white/95 backdrop-blur-lg border border-gray-200 rounded-full shadow-2xl px-5 py-2 flex items-center hover:shadow-cyan-500/10 transition-shadow duration-300">
+                    <Image
+                        src="/logo.png"
+                        alt="Logicpulse Innovation Logo"
+                        width={180}
+                        height={50}
+                        className="h-12 w-auto object-contain"
+                        priority
+                        unoptimized
+                    />
+                </Link>
 
+                {/* Part 2: Navigation + CTA */}
+                <div className="flex-1 bg-white/95 backdrop-blur-lg border border-gray-200 rounded-full shadow-2xl px-6 lg:px-8">
+                    <div className="flex items-center justify-between h-16">
                         {/* Desktop Navigation */}
                         <div
                             className="hidden md:flex items-center space-x-8 flex-1 justify-center"
@@ -62,12 +63,13 @@ export default function Navbar() {
                                         <button
                                             id="services-button"
                                             onMouseEnter={() => setServicesOpen(true)}
-                                            className={`flex items-center gap-1 rounded-full px-3 py-1.5 text-sm font-medium transition-colors ${servicesOpen
-                                                ? "bg-gray-100 text-gray-900"
+                                            className={`relative group flex items-center gap-1 px-3 py-1.5 text-base font-medium transition-colors ${servicesOpen
+                                                ? "text-gray-900"
                                                 : "text-gray-700 hover:text-gray-900"
                                                 }`}
                                         >
                                             <span>{item.name}</span>
+                                            <span className={`absolute -bottom-1 left-3 right-3 h-[2px] bg-cyan-500 transition-transform duration-300 origin-center ${servicesOpen ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'}`} />
                                             <svg
                                                 className={`w-4 h-4 transition-transform ${servicesOpen ? "rotate-180" : ""}`}
                                                 fill="none"
@@ -123,9 +125,10 @@ export default function Navbar() {
                                     <Link
                                         key={item.name}
                                         href={item.href}
-                                        className="text-gray-700 hover:text-gray-900 transition-colors text-sm font-medium px-3 py-1.5 rounded-full hover:bg-gray-100"
+                                        className="relative group text-gray-700 hover:text-gray-900 transition-colors text-base font-medium px-3 py-1.5"
                                     >
                                         {item.name}
+                                        <span className="absolute -bottom-1 left-3 right-3 h-[2px] bg-cyan-500 transition-transform duration-300 origin-center scale-x-0 group-hover:scale-x-100" />
                                     </Link>
                                 )
                             )}

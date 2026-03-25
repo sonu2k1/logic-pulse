@@ -1,11 +1,21 @@
 export const company = {
-  name: "Logicpulse Innovation",
-  shortName: "Logicpulse",
-  tagline: "Innovating Next-Gen Custom Software Development Services For Businesses",
+  name: "LogicPulse Innovation LLP",
+  shortName: "LogicPulse",
+  tagline: "Creating Smart, Scalable, and Impactful Solutions",
   description:
-    "Logicpulse Innovation is the leading custom software development company that offers high-quality website design & development services as per the client's requirements.",
+    "At LogicPulse Innovation LLP, we believe that technology is not just about coding—it's about creating smart, scalable, and impactful solutions that help businesses grow in the digital world.",
+  aboutIntro:
+    "Founded with a vision to empower businesses through innovation, LogicPulse Innovation LLP specializes in delivering cutting-edge IT services tailored to modern business needs. We combine creativity, technical expertise, and strategic thinking to build solutions that drive real results.",
+  whoWeAre:
+    "LogicPulse Innovation LLP is a dynamic and fast-growing IT company driven by passion, innovation, and commitment to excellence. As the founder-led organization, we focus on delivering personalized services and building long-term relationships with our clients.",
+  whoWeAreExtra:
+    "We are a team of developers, designers, and strategists who work together to transform ideas into powerful digital products.",
   mission:
-    "Building custom software solutions through new-age design and technology development for almost every sector businesses.",
+    "Our mission is to deliver innovative, reliable, and scalable technology solutions that help businesses succeed in a competitive digital landscape.",
+  vision:
+    "To become a trusted IT partner for businesses worldwide by continuously innovating and delivering high-quality digital solutions.",
+  founderMessage:
+    "At LogicPulse Innovation LLP, our goal is not just to build projects, but to build long-term relationships. We believe in delivering value, trust, and innovation in everything we do.",
   founded: "2015",
 
   contact: {
@@ -25,6 +35,39 @@ export const company = {
     linkedin: "https://linkedin.com/company/logicpulse",
     instagram: "https://instagram.com/logicpulse",
   },
+
+  whatWeDo: [
+    {
+      title: "Website Development",
+      description: "Modern, responsive, and user-friendly websites",
+      icon: "🌐",
+    },
+    {
+      title: "Web Applications",
+      description: "Custom-built solutions for business operations",
+      icon: "💻",
+    },
+    {
+      title: "Software Development",
+      description: "Tailored software for specific business needs",
+      icon: "⚙️",
+    },
+    {
+      title: "E-commerce Solutions",
+      description: "Online stores with secure payment integration",
+      icon: "🛒",
+    },
+    {
+      title: "UI/UX Design",
+      description: "Clean, attractive, and engaging designs",
+      icon: "🎨",
+    },
+    {
+      title: "Business Automation Tools",
+      description: "Smart systems to improve efficiency",
+      icon: "🤖",
+    },
+  ],
 
   values: [
     {
@@ -61,24 +104,67 @@ export const company = {
 
   whyChooseUs: [
     {
-      title: "Customized Options",
-      description: "Giving you the liberty to demand exclusive designs according to your requirements",
+      title: "Client-Focused Approach",
+      description: "We put our clients at the center of everything we do, ensuring personalized attention and care",
+      icon: "🤝",
+    },
+    {
+      title: "Customized Solutions",
+      description: "Every solution is tailor-made to fit your unique business requirements and goals",
       icon: "🎯",
     },
     {
-      title: "Powerful Code",
-      description: "Developing robust & lightweight codes without putting a lot of load on system",
-      icon: "💪",
+      title: "Affordable Pricing",
+      description: "Premium quality services at competitive and transparent pricing",
+      icon: "💰",
     },
     {
-      title: "Dynamic Marketing",
-      description: "Providing you with the most optimal & scalable marketing strategies",
-      icon: "📈",
+      title: "On-Time Delivery",
+      description: "We respect your timelines and deliver projects on schedule, every time",
+      icon: "⏰",
     },
     {
-      title: "Documentation",
-      description: "Completing documentation process to ensure verification and validation of products",
-      icon: "📋",
+      title: "Dedicated Support",
+      description: "Our team provides ongoing support and maintenance even after project delivery",
+      icon: "🛡️",
+    },
+    {
+      title: "Latest Technologies",
+      description: "We use the most modern technologies and tools to build future-ready solutions",
+      icon: "🔧",
+    },
+  ],
+
+  approach: [
+    {
+      step: 1,
+      title: "Understand",
+      description: "Understand your business needs",
+      icon: "🔍",
+    },
+    {
+      step: 2,
+      title: "Plan & Design",
+      description: "Plan and design the solution",
+      icon: "📐",
+    },
+    {
+      step: 3,
+      title: "Develop",
+      description: "Develop with precision",
+      icon: "💻",
+    },
+    {
+      step: 4,
+      title: "Test",
+      description: "Test for quality",
+      icon: "✅",
+    },
+    {
+      step: 5,
+      title: "Deliver & Support",
+      description: "Deliver and support",
+      icon: "🚀",
     },
   ],
 
@@ -106,6 +192,7 @@ export const navigation = {
         { name: "Inventory Management", href: "/services/inventory-management" },
       ],
     },
+    { name: "Something", href: "/something" },
     { name: "Contact", href: "/contact" },
   ],
   footer: {
