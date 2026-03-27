@@ -19,13 +19,13 @@ export const company = {
   founded: "2015",
 
   contact: {
-    address: "A-1, 2D, Sector 10, Noida, U.P - 201301",
+    address: "1012, Sadarpur, Sector 45, Noida, near Amrapali Sapphire",
     city: "Noida",
     state: "Uttar Pradesh",
     country: "India",
-    pincode: "201301",
-    phone: ["+91 9990555350", "+91 9990555850"],
-    email: "info@logicpulse.com",
+    pincode: "201303",
+    phone: ["7683052910"],
+    email: "logicpulseinnovation@gmail.com",
     website: "https://logicpulse.com",
   },
 

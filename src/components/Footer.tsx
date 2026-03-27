@@ -18,28 +18,28 @@ export default function Footer() {
         {
             title: "Facebook",
             icon: (
-                <IconBrandFacebook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconBrandFacebook className="h-full w-full text-[#1877F2] dark:text-[#1877F2]" />
             ),
             href: company.social.facebook,
         },
         {
             title: "Twitter",
             icon: (
-                <IconBrandTwitter className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconBrandTwitter className="h-full w-full text-[#1DA1F2] dark:text-[#1DA1F2]" />
             ),
             href: company.social.twitter,
         },
         {
             title: "LinkedIn",
             icon: (
-                <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconBrandLinkedin className="h-full w-full text-[#0A66C2] dark:text-[#0A66C2]" />
             ),
             href: company.social.linkedin,
         },
         {
             title: "Instagram",
             icon: (
-                <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconBrandInstagram className="h-full w-full text-[#E1306C] dark:text-[#E1306C]" />
             ),
             href: company.social.instagram,
         },
